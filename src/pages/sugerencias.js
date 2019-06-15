@@ -6,12 +6,12 @@ import SugerenciasStyle from "./cuerpo.module.css"
 export default () => (
     <Layout>
         <div className={ SugerenciasStyle.contenedortexto }>
-            <form name="sugerencia" method="post" data-netlify="true" data-netlify-honeypot="bot-field">
+            <form name="sugerencia" method="post" data-netlify="true">
             <div className={ SugerenciasStyle.texto }>
                 <p>
                     ¿Tienes alguna idea o sugerencia para la celebración? No dudes en hacernosla saber, estaremos encantados de escucharlas.
                 </p>
-                <textarea rows="5" cols="30">
+                <textarea name="mensaje" rows="5" cols="30">
                 </textarea>
                 <div><input type="submit" value="Enviar"></input></div>
             </div>
