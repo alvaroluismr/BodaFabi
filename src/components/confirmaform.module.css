@@ -1,0 +1,60 @@
+.honeypot{
+    display: none;
+}
+
+.bold{
+    font-weight: bold;
+}
+
+legend{
+    /*color: rgb(17, 111, 143);*/
+    color: #FD6051;
+}
+
+.fieldgroup{
+    border: 2px groove;
+    padding: 1rem;
+    border-radius: 0.5rem;
+}
+
+.divform{
+    text-align: center;
+    border-top: 5px solid #FFE577;
+    border-bottom: 5px solid #FFE577;
+    border-left: 1px solid #FFE577;
+    border-right: 1px solid #FFE577;
+    border-radius: 1rem;
+    padding: 0.5rem;
+}
+
+.divgracias{
+    border-top: 5px solid #FFE577;
+    border-bottom: 5px solid #FFE577;
+    border-radius: 1rem;
+    background-color: #f6f6f6;
+    text-align: center;
+    padding: 0.5rem;
+}
+
+.vueltacasa{
+    margin: 5px;
+}
+
+.busgroup{
+    text-align: left;
+    margin: 1px auto;
+}
+
+.busgroup > input{
+    margin: 0.5rem auto;
+}
+
+.menugroup{
+    text-align: left;
+    margin: 0.5rem auto;
+}
+
+.inputext{
+    box-shadow: 2px 0px gray;
+    max-width: 150px;
+}
