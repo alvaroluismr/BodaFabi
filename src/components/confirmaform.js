@@ -116,7 +116,7 @@ export default class Contact extends React.Component {
         </div> 
       : 
       <form className="" method="POST" data-email="example@email.net" action={url} onSubmit={ this.handleFormSubmit } onKeyPress={this.handleEnter} onKeyUp={this.handleEnter} >
-        <div className={formStyle.divform} style={{ backgroundColor: '#f6f6f6' }} >
+        <div className={formStyle.divform} >
 
           <label className={formStyle.honeypot}>Keep this field blank</label>
           <input className={formStyle.honeypot} type="text" name="honeypot" value="" />

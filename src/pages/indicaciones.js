@@ -10,7 +10,7 @@ export default () => (
                 <div className={indicacionesStyle.colum}>
                     <div className={indicacionesStyle.texto} >
                         <h1 className={indicacionesStyle.minititulo}>Ceremonia</h1>
-                        <p>El sitio esta localizado en Roche, con facil acceso y aparcamiento.</p>
+                        <p>El sitio esta localizado en Roche, con fácil acceso y aparcamiento.</p>
                         <ul>
                             <li><spam className={indicacionesStyle.tipoinfo}>Lugar:</spam> El Timón de Roche</li>
                             <li><spam className={indicacionesStyle.tipoinfo}>Hora:</spam> 19:00</li>
@@ -25,7 +25,7 @@ export default () => (
                 <div className={indicacionesStyle.colum}>
                     <div className={indicacionesStyle.texto} >
                         <h1 className={indicacionesStyle.minititulo}>Estancia</h1>
-                        <p>Si quieres disgrutar del fin de semana completo, aqui te dejamos alguna sugerencias con los mejores hoteles de la zona.</p>
+                        <p>Si quieres disfrutar del fin de semana completo, aqui te dejamos alguna sugerencias con los mejores hoteles de la zona.</p>
                         <ul>
                             <li><spam className={indicacionesStyle.tipoinfo}>Lugar:</spam> Hotel 1</li>
                             <li><spam className={indicacionesStyle.tipoinfo}>Dirección:</spam> Diseminado Barrio Nuevo, 553, 11149 (Cádiz)</li>

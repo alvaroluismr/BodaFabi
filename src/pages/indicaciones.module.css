@@ -6,12 +6,12 @@
 }
 
 .colum {
-    flex: 50%;
-    max-width: 40%;
+    flex: 100%;
+    max-width: 90%;
     padding: 1rem;
-    border: 2px solid #392033;
+    border: 2px solid #FFE577;
     /*background-image: linear-gradient(to right, #FF8866, #FD6051);*/
-    background-color: #FFE577;
+    background-color: #DDF1EF;
     margin: 1rem;
     border-radius: 2rem;
 }
