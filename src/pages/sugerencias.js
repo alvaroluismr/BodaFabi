@@ -6,7 +6,7 @@ import SugerenciasStyle from "./cuerpo.module.css"
 export default () => (
     <Layout>
         <div className={ SugerenciasStyle.contenedortexto }>
-            <form method="post" action="mailto:estopato@gmail.com">
+            <form name="sugerencia" method="post" data-netlify="true" data-netlify-honeypot="bot-field">
             <div className={ SugerenciasStyle.texto }>
                 <p>
                     ¿Tienes alguna idea o sugerencia para la celebración? No dudes en hacernosla saber, estaremos encantados de escucharlas.

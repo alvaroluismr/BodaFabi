@@ -58,4 +58,5 @@ legend{
 .inputext{
     box-shadow: 2px 0px gray;
     max-width: 150px;
+    margin-top: 3px;
 }
