@@ -6,7 +6,8 @@ import SugerenciasStyle from "./cuerpo.module.css"
 export default () => (
     <Layout>
         <div className={ SugerenciasStyle.contenedortexto }>
-            <form name="sugerencias" method="POST" data-netlify="true" data-netlify-honeypot="bot-field">
+            <form name="sugerencias" method="POST" data-netlify="true">
+            <input type="hidden" name="form-name" value="sugerencias" />
             <div className={ SugerenciasStyle.texto }>
                 <p>
                     ¿Tienes alguna idea o sugerencia para la celebración? No dudes en hacernosla saber, estaremos encantados de escucharlas.
