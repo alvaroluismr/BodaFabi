@@ -96,12 +96,16 @@ export default () => {
         <div id="countdown"
             style={{
                 textAlign: 'center',
-                fontSize: '2rem',
+                fontSize: '1.9rem',
                 color: 'white',
                 marginBottom: '0.5rem',
-                textShadow: '2px 2px 3px #FFE577',
+                textShadow: '2px 2px 3px #392033',
                 backgroundColor: '#FF8866',
                 borderRadius: '0.5rem',
+                borderStyle: 'solid',
+                borderTopWidth: '10px',
+                borderBottomWidth: '10px',
+                borderColor: '#FF8866',
             }}
         >
             <CountDown />
