@@ -8,13 +8,16 @@ class MyComponent extends React.Component {
  
     const images = [
       {
-        original: 'http://lorempixel.com/1000/600/nature/1/',
+        original: 'https://raw.githubusercontent.com/alvaroluismr/BodaFabi/fabi/src/img/pareja1.jpg',
       },
       {
-        original: 'http://lorempixel.com/1000/600/nature/2/',
+        original: 'https://raw.githubusercontent.com/alvaroluismr/BodaFabi/fabi/src/img/pareja2.jpg',
       },
       {
-        original: 'http://lorempixel.com/1000/600/nature/3/',
+        original: 'https://raw.githubusercontent.com/alvaroluismr/BodaFabi/fabi/src/img/pareja3.jpg',
+      },
+      {
+          original: 'https://raw.githubusercontent.com/alvaroluismr/BodaFabi/fabi/src/img/pareja4.jpg',
       }
     ]
  
