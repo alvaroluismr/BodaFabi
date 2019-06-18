@@ -135,6 +135,11 @@ export default class Contact extends React.Component {
 
           <fieldset className={formStyle.fieldgroup} style={{marginBottom: '20px', marginTop: '20px'}}>
           <legend>Autobuses (Elija tantas líneas como necesite)</legend>
+            <div className={formStyle.anotacion}>
+              <p>* Las paradas tanto para la ida como para la vuelta son: </p>
+              <p>Cádiz -> Plaza España - Cortefiel - Estadio</p>
+              <p>Puerto Real -> Parada de autobuses de la estación de tren *</p>
+            </div>
             <div className={formStyle.busgroup}>
             <input id="checkboxes--linea1" type="checkbox" name="autobus" value="Línea 1 (Cádiz - El Timón)" /> <label for="checkboxes--linea1"><spam className={formStyle.bold}>Línea 1:</spam> Cádiz - El Timón de Roche - <spam className={formStyle.bold}>Salida 18:15</spam></label><br />
             <input id="checkboxes--linea2" type="checkbox" name="autobus" value="Línea 2 (Puerto Real - El Timón)" /> <label for="checkboxes--linea2"><spam className={formStyle.bold}>Línea 2:</spam> Puerto Real - El Timón de Roche - <spam className={formStyle.bold}>Salida 18:15</spam></label> <br />

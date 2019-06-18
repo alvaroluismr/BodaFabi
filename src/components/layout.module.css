@@ -16,7 +16,7 @@ header{
     background-size: cover;
     box-shadow: 0 0.5rem 0.25rem gray;
     border-bottom: 2px solid gray;
-    margin-top: 42px;
+    /*margin-top: 42px;*/
 }
 
 .cabecera {
