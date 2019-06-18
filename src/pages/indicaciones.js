@@ -12,9 +12,9 @@ export default () => (
                         <h1 className={indicacionesStyle.minititulo}>Ceremonia</h1>
                         <p>El sitio esta localizado en Roche, con fácil acceso y aparcamiento.</p>
                         <ul>
-                            <li><spam className={indicacionesStyle.tipoinfo}>Lugar:</spam> El Timón de Roche</li>
-                            <li><spam className={indicacionesStyle.tipoinfo}>Hora:</spam> 19:00</li>
-                            <li><spam className={indicacionesStyle.tipoinfo}>Direción:</spam> urb. Roche, Av. Inglaterra, s/n, 11149 Conil de la Frontera, Cádiz</li>
+                            <li><span className={indicacionesStyle.tipoinfo}>Lugar:</span> El Timón de Roche</li>
+                            <li><span className={indicacionesStyle.tipoinfo}>Hora:</span> 19:00</li>
+                            <li><span className={indicacionesStyle.tipoinfo}>Direción:</span> urb. Roche, Av. Inglaterra, s/n, 11149 Conil de la Frontera, Cádiz</li>
                             <li><a className={indicacionesStyle.links} href="https://www.google.com/maps/place/El+Tim%C3%B3n+de+Roche/@36.311314,-6.1525753,15z/data=!4m5!3m4!1s0x0:0xd01da584c6cd3fe8!8m2!3d36.311314!4d-6.1525753">Mapa</a></li>
                         </ul>
                     </div>
@@ -27,24 +27,19 @@ export default () => (
                         <h1 className={indicacionesStyle.minititulo}>Estancia</h1>
                         <p>Si quieres disfrutar del fin de semana completo, aqui te dejamos alguna sugerencias con los mejores hoteles de la zona.</p>
                         <ul>
-                            <li><spam className={indicacionesStyle.tipoinfo}>Lugar:</spam> Hotel 1</li>
-                            <li><spam className={indicacionesStyle.tipoinfo}>Dirección:</spam> Diseminado Barrio Nuevo, 553, 11149 (Cádiz)</li>
-                            <li><a className={indicacionesStyle.links} href="https://www.google.com/maps/dir//Finca+Alborea',+Diseminado+Barrio+Nuevo,+553,+11149,+C%C3%A1diz/@36.3173999,-6.0791622,16.5z/data=!4m9!4m8!1m0!1m5!1m1!1s0xd0c37ce34f873cf:0x258e47f1dbb5e922!2m2!1d-6.0796338!2d36.3174223!3e0" >Mapa</a></li>
+                            <li><span className={indicacionesStyle.tipoinfo}>Lugar:</span> Hotel ilunion calas de Conil.</li>
+                            <li><span className={indicacionesStyle.tipoinfo}>Dirección:</span> Urb. Cabo Roche, s/n, 11140 Conil de la Frontera (Cádiz)</li>
+                            <li><a className={indicacionesStyle.links} href="https://www.ilunionhotels.com/hotel-ilunion-calas-de-conil-en-cadiz/" >Web</a></li>
                         </ul>
                         <ul>
-                            <li><spam className={indicacionesStyle.tipoinfo}>Lugar:</spam> Hotel 1</li>
-                            <li><spam className={indicacionesStyle.tipoinfo}>Dirección:</spam> Diseminado Barrio Nuevo, 553, 11149 (Cádiz)</li>
-                            <li><a className={indicacionesStyle.links} href="https://www.google.com/maps/dir//Finca+Alborea',+Diseminado+Barrio+Nuevo,+553,+11149,+C%C3%A1diz/@36.3173999,-6.0791622,16.5z/data=!4m9!4m8!1m0!1m5!1m1!1s0xd0c37ce34f873cf:0x258e47f1dbb5e922!2m2!1d-6.0796338!2d36.3174223!3e0" >Mapa</a></li>
+                            <li><span className={indicacionesStyle.tipoinfo}>Lugar:</span> Royal hideaway sancti petri.</li>
+                            <li><span className={indicacionesStyle.tipoinfo}>Dirección:</span> Urb Lomas de Sancti Petri, 11130 Chiclana dela Frontera (Cádiz) </li>
+                            <li><a className={indicacionesStyle.links} href="https://www.barcelo.com/es/royal-hideaway/hoteles/espana/andalucia/cadiz/royal-hideaway-sancti-petri/" >Web</a></li>
                         </ul>
                         <ul>
-                            <li><spam className={indicacionesStyle.tipoinfo}>Lugar:</spam> Hotel 1</li>
-                            <li><spam className={indicacionesStyle.tipoinfo}>Dirección:</spam> Diseminado Barrio Nuevo, 553, 11149 (Cádiz)</li>
-                            <li><a className={indicacionesStyle.links} href="https://www.google.com/maps/dir//Finca+Alborea',+Diseminado+Barrio+Nuevo,+553,+11149,+C%C3%A1diz/@36.3173999,-6.0791622,16.5z/data=!4m9!4m8!1m0!1m5!1m1!1s0xd0c37ce34f873cf:0x258e47f1dbb5e922!2m2!1d-6.0796338!2d36.3174223!3e0" >Mapa</a></li>
-                        </ul>
-                        <ul>
-                            <li><spam className={indicacionesStyle.tipoinfo}>Lugar:</spam> Hotel 1</li>
-                            <li><spam className={indicacionesStyle.tipoinfo}>Dirección:</spam> Diseminado Barrio Nuevo, 553, 11149 (Cádiz)</li>
-                            <li><a className={indicacionesStyle.links} href="https://www.google.com/maps/dir//Finca+Alborea',+Diseminado+Barrio+Nuevo,+553,+11149,+C%C3%A1diz/@36.3173999,-6.0791622,16.5z/data=!4m9!4m8!1m0!1m5!1m1!1s0xd0c37ce34f873cf:0x258e47f1dbb5e922!2m2!1d-6.0796338!2d36.3174223!3e0" >Mapa</a></li>
+                            <li><span className={indicacionesStyle.tipoinfo}>Lugar:</span> Hotel fuerte conil- costa luz.</li>
+                            <li><span className={indicacionesStyle.tipoinfo}>Dirección:</span> Playa de la Fontanilla, s/n, 11140 Conil de la Frontera (Cádiz)</li>
+                            <li><a className={indicacionesStyle.links} href="https://www.fuertehoteles.com/hotel/resort-fuerte-conil-costaluz/el-hotel/" >Web</a></li>
                         </ul>
                     </div>
                 </div>
