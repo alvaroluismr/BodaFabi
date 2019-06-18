@@ -136,13 +136,14 @@ export default class Contact extends React.Component {
           <fieldset className={formStyle.fieldgroup} style={{marginBottom: '20px', marginTop: '20px'}}>
           <legend>Autobuses (Elija tantas líneas como necesite)</legend>
             <div className={formStyle.busgroup}>
-            <input id="checkboxes--linea1" type="checkbox" name="autobus" value="Linea 1 (Cádiz - El Timón)" /> <label for="checkboxes--linea1"><spam className={formStyle.bold}>Linea 1:</spam> Cádiz - El Timón de Roche - <spam className={formStyle.bold}>Salida 18:15</spam></label><br />
-            <input id="checkboxes--linea2" type="checkbox" name="autobus" value="Linea 2 (Puerto Real - El Timón)" /> <label for="checkboxes--linea2"><spam className={formStyle.bold}>Linea 2:</spam> Puerto Real - El Timón de Roche - <spam className={formStyle.bold}>Salida 18:15</spam></label> <br />
+            <input id="checkboxes--linea1" type="checkbox" name="autobus" value="Línea 1 (Cádiz - El Timón)" /> <label for="checkboxes--linea1"><spam className={formStyle.bold}>Línea 1:</spam> Cádiz - El Timón de Roche - <spam className={formStyle.bold}>Salida 18:15</spam></label><br />
+            <input id="checkboxes--linea2" type="checkbox" name="autobus" value="Línea 2 (Puerto Real - El Timón)" /> <label for="checkboxes--linea2"><spam className={formStyle.bold}>Línea 2:</spam> Puerto Real - El Timón de Roche - <spam className={formStyle.bold}>Salida 18:15</spam></label> <br />
             </div>
             <p className={formStyle.vueltacasa}>----- Vuelta a casa -----</p>
             <div className={formStyle.busgroup}>
-            <input id="checkboxes--linea3" type="checkbox" name="autobus" value="Linea 3 (El Timón - Puerto Real - Cádiz - 3am)" /> <label for="checkboxes--linea3"><spam className={formStyle.bold}>Linea 3:</spam> El Timón de Roche - Puerto Real - Cádiz - <spam className={formStyle.bold}>Salida 3:00 am</spam></label> <br />
-            <input id="checkboxes--linea4" type="checkbox" name="autobus" value="Linea 4 (El Timón - Puerto Real - Cádiz - 6am)" /> <label for="checkboxes--linea4"><spam className={formStyle.bold}>Linea 4:</spam> El Timón de Roche - Puerto Real - Cádiz - <spam className={formStyle.bold}>Salida 6:00 am</spam></label> <br />
+            <input id="checkboxes--linea3" type="checkbox" name="autobus" value="Línea 3 (El Timón - Puerto Real - Cádiz - 3am)" /> <label for="checkboxes--linea3"><spam className={formStyle.bold}>Línea 3:</spam> El Timón de Roche - Puerto Real - Cádiz - <spam className={formStyle.bold}>Salida 3:00 am</spam></label> <br />
+            <input id="checkboxes--linea4" type="checkbox" name="autobus" value="Línea 4 (El Timón - Cádiz - 6am)" /> <label for="checkboxes--linea4"><spam className={formStyle.bold}>Línea 4:</spam> El Timón de Roche - Cádiz - <spam className={formStyle.bold}>Salida 6:00 am</spam></label> <br />
+            <input id="checkboxes--linea5" type="checkbox" name="autobus" value="Línea 5 (El Timón - Puerto Real - 6am)" /> <label for="checkboxes--linea4"><spam className={formStyle.bold}>Línea 5:</spam> El Timón de Roche - Puerto Real - <spam className={formStyle.bold}>Salida 6:00 am</spam></label> <br />
             </div>
           </fieldset>
 

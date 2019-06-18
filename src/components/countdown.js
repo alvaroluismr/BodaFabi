@@ -102,10 +102,21 @@ export default () => {
                 textShadow: '2px 2px 3px #392033',
                 backgroundColor: '#FF8866',
                 borderRadius: '0.5rem',
-                borderStyle: 'solid',
+                padding: '10px',
+                /*borderTopStyle: 'solid',
+                borderBottomStyle: 'solid',
                 borderTopWidth: '10px',
                 borderBottomWidth: '10px',
                 borderColor: '#FF8866',
+                borderLeftStyle: 'dotted',
+                borderLeftWidth: '3px',
+                borderLeftColor: '#FFE577',
+                borderRightStyle: 'dotted',
+                borderRightWidth: '3px',
+                borderRightColor: '#FFE577',*/
+                borderStyle: 'dotted',
+                borderWidth: '2px',
+                borderColor: '#FFE577'
             }}
         >
             <CountDown />

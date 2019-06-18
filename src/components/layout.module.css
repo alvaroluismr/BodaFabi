@@ -16,7 +16,7 @@ header{
     background-size: cover;
     box-shadow: 0 0.5rem 0.25rem gray;
     border-bottom: 2px solid gray;
-    /*margin-top: 42px;*/
+    margin-top: 42px;
 }
 
 .cabecera {
@@ -37,8 +37,8 @@ header{
     border-top: 2px solid gray;*/
     height: 42px;
     background-color: #222;
-    /*position: fixed;
-    width: 100%;*/
+    position: fixed;
+    width: 100%;
 }
 
 .listmenu{
@@ -57,7 +57,6 @@ header{
     font-size: 1.5rem;
     color: white;
     margin-right: 1rem;
-    margin-left: 0.5rem;
     /*background-image: linear-gradient(to right, #4FC4EF, #1E96BE);*/
     background-color: #FF8866;
     padding: 0.5rem;

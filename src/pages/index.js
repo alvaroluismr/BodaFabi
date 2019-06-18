@@ -1,7 +1,7 @@
 import React from "react"
 import Layout from "../components/layout"
 import Countdown from "../components/countdown"
-import pareja from "../img/pareja.jpg"
+import Galeria from "../components/galeria"
 
 
 /*
@@ -44,10 +44,7 @@ export default () => {
         <div style={{ margin: '3rem auto', maxWidth: 650, padding: '0 1rem' }}>
             
             <Countdown />
-
-            <figure>
-                <img src={pareja} alt="Jon y María" />
-            </figure>
+            <Galeria />
         </div>
     </Layout>
     )
