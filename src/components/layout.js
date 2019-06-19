@@ -25,6 +25,11 @@ export default ({ children }) => (
                 <h1>¡NOS CASAMOS!</h1>
                 </div>
             </div>
+            <div className={layoutStyle.titulohead}>
+                <div className={layoutStyle.lazo}>
+                <h1>¡06/09/2019!</h1>
+                </div>
+            </div>
         </div>
         
         </header>

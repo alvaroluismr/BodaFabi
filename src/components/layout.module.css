@@ -14,7 +14,7 @@ header{
     background-image: url(../img/portada.jpg);
     background-position: 50% 50%;
     background-size: cover;
-    box-shadow: 0 0.5rem 0.25rem gray;
+    /*box-shadow: 0 0.5rem 0.25rem gray;*/
     border-bottom: 2px solid gray;
     /*margin-top: 42px;*/
 }
@@ -71,15 +71,16 @@ header{
 
 .titulohead{
     font-size: 2.5rem;
-    color: white;
+    color: #FF8866;
     text-decoration: none;
 }
 
 .titulohead h1{
     display: inline;
     font-family: 'Sofia';
-    background-color: #FF8866;
+    background-color: white;
     border-radius: 0.5rem;
+    padding: 0.2rem;
 }
 
 .anillos{

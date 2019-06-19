@@ -2,6 +2,7 @@ import React from "react"
 import Layout from "../components/layout"
 import Countdown from "../components/countdown"
 import Galeria from "../components/galeria"
+import escudo from "../img/escudo.png"
 
 
 /*
@@ -41,10 +42,31 @@ export default () => {
 
     return (
     <Layout>
-        <div style={{ margin: '3rem auto', maxWidth: 650, padding: '0 1rem' }}>
-            
+        <div style={{ margin: '2rem auto', maxWidth: 650, padding: '0 1rem' }}>
+            <p style={{
+                textAlign: 'center',
+                fontSize: '1.9rem',
+                color: 'white',
+                marginBottom: '0.5rem',
+                textShadow: '2px 2px 3px #392033',
+                /*backgroundColor: '#FF8866',*/
+                backgroundColor: 'white',
+                borderRadius: '0.5rem',
+                padding: '10px',
+                borderStyle: 'dotted',
+                borderWidth: '2px',
+                borderColor: '#FFE577'
+            }}>All you need is love... And the beach</p>
+            <Galeria />            
             <Countdown />
-            <Galeria />
+            <div>
+                <figure style={{
+                    textAlign: 'center'
+                }}>
+                    <img src={escudo} alt="Escudo Cádiz CF" ></img>
+                </figure>
+            </div>
+
         </div>
     </Layout>
     )

@@ -4,7 +4,8 @@
 */
 
 html {
-	background-image: url(../img/fondomar.jpg);
+	/*background-image: url(../img/fondomar.jpg);*/
+	background-image: linear-gradient(to bottom right, #36798A, #58B097, white);
 }
 
 html, body, div, span, applet, object, iframe,

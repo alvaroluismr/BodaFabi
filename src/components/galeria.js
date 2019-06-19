@@ -11,9 +11,6 @@ class MyComponent extends React.Component {
         original: 'https://raw.githubusercontent.com/alvaroluismr/BodaFabi/fabi/src/img/pareja1.jpg',
       },
       {
-        original: 'https://raw.githubusercontent.com/alvaroluismr/BodaFabi/fabi/src/img/pareja2.jpg',
-      },
-      {
         original: 'https://raw.githubusercontent.com/alvaroluismr/BodaFabi/fabi/src/img/pareja3.jpg',
       },
       {
@@ -22,7 +19,7 @@ class MyComponent extends React.Component {
     ]
  
     return (
-      <ImageGallery items={images} />
+      <ImageGallery items={images} autoPlay="true"/>
     );
   }
  
