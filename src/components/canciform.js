@@ -100,7 +100,7 @@ export default class formcanciones extends React.Component{
                 <form name="" method="POST" action={url} onSubmit={ this.handleFormSubmit } onKeyPress={this.handleEnter} onKeyUp={this.handleEnter} >
                 <div className={ SugerenciasStyle.texto }>
                     <p>
-                        También puedes indicarnos si quieres escucharlas alguna canción en concreto durante la celebración.
+                        También puedes indicarnos si quieres escuchar alguna canción en concreto durante la fiesta para así hacérselo saber al DJ.
                     </p>
                     <input tyope="text" name="cancion">
                     </input>

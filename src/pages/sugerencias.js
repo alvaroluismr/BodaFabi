@@ -22,7 +22,7 @@ export default () => (
         <Canciform />
         <div style={{ margin: '3rem auto', maxWidth: 650, padding: '0 1rem', textAlign: 'center' }}>
             <figure style={{ marginTop: '1rem' }}>
-                <img className={SugerenciasStyle.hobbiton} src={notas} alt="Rosas"/>
+                <img className={SugerenciasStyle.foto} src={notas} alt="notas"/>
             </figure>
         </div>
     </Layout>
