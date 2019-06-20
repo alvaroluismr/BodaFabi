@@ -1,6 +1,7 @@
 import React from "react"
 import Layout from "../components/layout"
-import Rosas from "../img/rosas.jpg"
+import Canciform from "../components/canciform"
+import notas from "../img/notas.jpg"
 import SugerenciasStyle from "./cuerpo.module.css"
 
 export default () => (
@@ -18,9 +19,10 @@ export default () => (
             </div>
             </form>
         </div>
+        <Canciform />
         <div style={{ margin: '3rem auto', maxWidth: 650, padding: '0 1rem', textAlign: 'center' }}>
             <figure style={{ marginTop: '1rem' }}>
-                <img className={SugerenciasStyle.hobbiton} src={Rosas} alt="Rosas"/>
+                <img className={SugerenciasStyle.hobbiton} src={notas} alt="Rosas"/>
             </figure>
         </div>
     </Layout>

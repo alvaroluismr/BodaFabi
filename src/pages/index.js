@@ -46,7 +46,7 @@ export default () => {
             <p style={{
                 textAlign: 'center',
                 fontSize: '1.9rem',
-                color: 'white',
+                color: '#FF8866',
                 marginBottom: '0.5rem',
                 textShadow: '2px 2px 3px #392033',
                 /*backgroundColor: '#FF8866',*/

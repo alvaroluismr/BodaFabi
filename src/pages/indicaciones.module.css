@@ -11,7 +11,8 @@
     padding: 1rem;
     border: 2px solid #FFE577;
     /*background-image: linear-gradient(to right, #FF8866, #FD6051);*/
-    background-color: #DDF1EF;
+    /*background-color: #DDF1EF;*/
+    background-color: white;
     margin: 1rem;
     border-radius: 2rem;
 }

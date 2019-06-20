@@ -15,7 +15,7 @@ header{
     background-position: 50% 50%;
     background-size: cover;
     /*box-shadow: 0 0.5rem 0.25rem gray;*/
-    border-bottom: 2px solid gray;
+    border-bottom: 3px solid #222;
     /*margin-top: 42px;*/
 }
 

@@ -25,7 +25,8 @@ legend{
     border-right: 1px solid #FFE577;
     border-radius: 1rem;
     padding: 0.5rem;
-    background-color: #DDF1EF;
+    /*background-color: #DDF1EF;*/
+    background-color: white;
 }
 
 .divgracias{
