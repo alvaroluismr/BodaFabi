@@ -8,13 +8,19 @@ class MyComponent extends React.Component {
  
     const images = [
       {
+        original: 'https://raw.githubusercontent.com/alvaroluismr/BodaFabi/fabi/src/img/pareja5.jpg',
+      },
+      {
         original: 'https://raw.githubusercontent.com/alvaroluismr/BodaFabi/fabi/src/img/pareja1.jpg',
       },
       {
-        original: 'https://raw.githubusercontent.com/alvaroluismr/BodaFabi/fabi/src/img/pareja3.jpg',
+          original: 'https://raw.githubusercontent.com/alvaroluismr/BodaFabi/fabi/src/img/pareja3.jpg',
       },
       {
-          original: 'https://raw.githubusercontent.com/alvaroluismr/BodaFabi/fabi/src/img/pareja4.jpg',
+        original: 'https://raw.githubusercontent.com/alvaroluismr/BodaFabi/fabi/src/img/pareja4.jpg',
+      },
+      {
+        original: 'https://raw.githubusercontent.com/alvaroluismr/BodaFabi/fabi/src/img/pareja6.jpg',
       }
     ]
  

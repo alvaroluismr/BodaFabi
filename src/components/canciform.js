@@ -102,7 +102,7 @@ export default class formcanciones extends React.Component{
                     <p>
                         También puedes indicarnos si quieres escuchar alguna canción en concreto durante la fiesta para así hacérselo saber al DJ.
                     </p>
-                    <input tyope="text" name="cancion">
+                    <input tyope="text" name="cancion" className={SugerenciasStyle.entradas}>
                     </input>
                     <div><input type="submit" value="Enviar" disable={validandoEnvio}></input></div>
                 </div>

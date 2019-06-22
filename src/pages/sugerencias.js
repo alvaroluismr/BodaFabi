@@ -13,7 +13,7 @@ export default () => (
                 <p>
                     ¿Tienes alguna idea o sugerencia para la celebración? No dudes en hacernosla saber, estaremos encantados de escucharlas.
                 </p>
-                <textarea name="mensaje" rows="5" cols="30">
+                <textarea name="mensaje" className={SugerenciasStyle.entradas} rows="5" cols="30">
                 </textarea>
                 <div><input type="submit" value="Enviar"></input></div>
             </div>
