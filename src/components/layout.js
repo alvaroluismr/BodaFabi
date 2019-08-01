@@ -16,6 +16,7 @@ export default ({ children }) => (
                 <ListLink to="/confirmacion/">Confirmación</ListLink>
                 <ListLink to="/indicaciones/">Indicaciones</ListLink>
                 <ListLink to="/sugerencias/">Sugerencias</ListLink>
+                <ListLink to="/lista/">Lista de Boda</ListLink>
             {/*</ul>*/}
         </nav>
         <header>
